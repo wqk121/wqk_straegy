@@ -1,0 +1,304 @@
+2026-09-24 09:29:46.904 | INFO | MainEngine | 连接登录 -> CTP
+2026-09-24 09:29:47.276 | INFO | CTP | 交易服务器连接成功
+2026-09-24 09:29:48.980 | INFO | CTP | 交易服务器授权验证成功
+2026-09-24 09:29:48.981 | INFO | CTP | 行情服务器连接成功
+2026-09-24 09:29:49.042 | INFO | CTP | 行情服务器登录成功
+2026-09-24 09:29:49.836 | INFO | CTP | 交易服务器登录成功
+2026-09-24 09:30:00.706 | INFO | CTP | 结算信息确认成功
+2026-09-24 09:30:05.943 | INFO | CtaStrategy | CTA策略引擎初始化成功
+2026-09-24 09:30:27.429 | INFO | CtaStrategy | wqk27开始执行初始化
+2026-09-24 09:30:27.429 | INFO | CtaStrategy | [wqk27]  DoubleMaStrategy V2.7 initialized ExecutionCore 2.3.1
+2026-09-24 09:30:30.658 | INFO | CtaStrategy | [wqk27]  [V2.5 EXIT] unavailable reason=PRICETICK_UNAVAILABLE
+2026-09-24 09:30:37.826 | INFO | CtaStrategy | [wqk27]  行情订阅失败，找不到合约c2611.DCE
+2026-09-24 09:30:37.828 | INFO | CtaStrategy | wqk27初始化完成
+2026-09-24 09:30:39.311 | INFO | CtaStrategy | [wqk27]  DoubleMaStrategy V2.7 启动
+2026-09-24 09:30:39.342 | INFO | CtaStrategy | [wqk27]  成交账本已加载: C:\Users\Administrator\strategies\ledger\wqk27_c2611_DCE.sqlite (0 条)
+2026-09-24 09:30:39.343 | INFO | CtaStrategy | [wqk27]  已订阅 EVENT_TIMER / EVENT_POSITION
+2026-09-24 09:30:39.343 | INFO | CtaStrategy | [wqk27]  持仓同步开始：策略启动
+2026-09-24 09:30:39.344 | INFO | CtaStrategy | [wqk27]  已向柜台查询委托，等待回报后再对账。
+2026-09-24 09:30:39.345 | INFO | CtaStrategy | [wqk27]  持仓同步结束：system=SYNCING_ORDERS, reason=NONE, strategy_pos=0, account_pos=0, msg=持仓已同步 account_pos=0，开始同步活动订单
+2026-09-24 09:30:39.345 | INFO | CtaStrategy | [wqk27]  [V2.7 TREND] ADX=23.248413508804333 +DI=9.721485002582027 -DI=4.370595035049926 candidate=NONE confirm=0/2 state=RANGE
+2026-09-24 09:30:39.345 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=RANGE MA=BEAR BB=EXPANSION direction=BEAR Final=SHORT reason=REGIME_SHORT
+2026-09-24 09:30:48.123 | INFO | CtaStrategy | [wqk27]  柜台委托查询超时，退回本进程内存对账
+2026-09-24 09:30:51.125 | INFO | CtaStrategy | [wqk27]  私有流空闲后按本进程无挂单放行（非柜台 query_order）
+2026-09-24 09:32:01.029 | INFO | CTP | 交易服务器连接断开，原因8193
+2026-09-24 09:32:01.194 | INFO | CtaStrategy | [wqk27]  Gateway 断开：td=False, md=True，暂停下单
+2026-09-24 09:32:02.159 | INFO | CTP | 交易服务器连接成功
+2026-09-24 09:32:02.966 | INFO | CTP | 交易服务器授权验证成功
+2026-09-24 09:32:03.005 | INFO | CTP | 交易服务器登录成功
+2026-09-24 09:32:03.195 | INFO | CtaStrategy | [wqk27]  Gateway 已重连，开始重新同步持仓和活动订单
+2026-09-24 09:32:03.197 | INFO | CtaStrategy | [wqk27]  持仓同步开始：Gateway 重连
+2026-09-24 09:32:03.199 | INFO | CtaStrategy | [wqk27]  已向柜台查询委托，等待回报后再对账。
+2026-09-24 09:32:03.199 | INFO | CtaStrategy | [wqk27]  持仓同步结束：system=SYNCING_ORDERS, reason=NONE, strategy_pos=0, account_pos=0, msg=持仓已同步 account_pos=0，开始同步活动订单
+2026-09-24 09:32:13.200 | INFO | CtaStrategy | [wqk27]  柜台委托查询超时，退回本进程内存对账
+2026-09-24 09:32:16.201 | INFO | CtaStrategy | [wqk27]  私有流空闲后按本进程无挂单放行（非柜台 query_order）
+2026-09-24 09:32:16.298 | INFO | CTP | 结算信息确认成功
+2026-09-24 09:35:16.281 | INFO | CTP | 交易服务器连接断开，原因8193
+2026-09-24 09:35:17.275 | INFO | CtaStrategy | [wqk27]  Gateway 断开：td=False, md=True，暂停下单
+2026-09-24 09:35:17.642 | INFO | CTP | 交易服务器连接成功
+2026-09-24 09:35:17.921 | INFO | CTP | 交易服务器授权验证成功
+2026-09-24 09:35:17.959 | INFO | CTP | 交易服务器登录成功
+2026-09-24 09:35:18.276 | INFO | CtaStrategy | [wqk27]  Gateway 已重连，开始重新同步持仓和活动订单
+2026-09-24 09:35:18.277 | INFO | CtaStrategy | [wqk27]  持仓同步开始：Gateway 重连
+2026-09-24 09:35:18.280 | INFO | CtaStrategy | [wqk27]  已向柜台查询委托，等待回报后再对账。
+2026-09-24 09:35:18.281 | INFO | CtaStrategy | [wqk27]  持仓同步结束：system=SYNCING_ORDERS, reason=NONE, strategy_pos=0, account_pos=0, msg=持仓已同步 account_pos=0，开始同步活动订单
+2026-09-24 09:35:19.820 | INFO | CTP | 结算信息确认成功
+2026-09-24 09:35:28.300 | INFO | CtaStrategy | [wqk27]  柜台委托查询超时，退回本进程内存对账
+2026-09-24 09:35:31.302 | INFO | CtaStrategy | [wqk27]  私有流空闲后按本进程无挂单放行（非柜台 query_order）
+2026-09-24 09:37:12.548 | INFO | CTP | 合约信息查询成功
+2026-09-24 09:38:33.400 | INFO | MainEngine | 订阅行情 -> CTP：SubscribeRequest(symbol='c2611', exchange=<Exchange.DCE: 'DCE'>)
+2026-09-24 09:39:01.382 | INFO | CtaStrategy | [wqk27]  [V2.7 TREND] ADX=27.423538909643305 +DI=5.058548418402972 -DI=50.23956936936982 candidate=SHORT confirm=1/2 state=RANGE
+2026-09-24 09:39:01.382 | INFO | CtaStrategy | [wqk27]  [V2.7 BB STATE] old=NEUTRAL new=EXPANSION percentile=100.00% bw=0.006181381108774662 release_count=2 direction=BEAR
+2026-09-24 09:39:01.383 | INFO | CtaStrategy | [wqk27]  [V2.7 ENTRY FILTER] regime=RANGE signal=DEATH_CROSS action=BLOCK reason=NO_TREND ADX=RANGE BB=EXPANSION MA=BEAR fast=2191.7000 slow=2192.2500
+2026-09-24 09:40:01.705 | INFO | CtaStrategy | [wqk27]  [V2.7 TREND] ADX=31.30959916972726 +DI=4.909213686221612 -DI=48.75812542557227 candidate=SHORT confirm=2/2 state=SHORT
+2026-09-24 09:40:01.706 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=BEAR BB=EXPANSION direction=BEAR Final=SHORT reason=REGIME_SHORT
+2026-09-24 09:49:01.421 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BEAR new=NEUTRAL fast=2176.2000 slow=2183.9500
+2026-09-24 09:49:01.421 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=NEUTRAL BB=EXPANSION direction=BEAR Final=RANGE reason=REGIME_SHORT_MA_NEUTRAL
+2026-09-24 09:50:01.444 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BEAR fast=2176.0000 slow=2183.0000
+2026-09-24 09:50:01.444 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=BEAR BB=EXPANSION direction=BEAR Final=SHORT reason=REGIME_SHORT
+2026-09-24 09:55:01.419 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BEAR new=NEUTRAL fast=2175.3000 slow=2178.2500
+2026-09-24 09:55:01.422 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=NEUTRAL BB=EXPANSION direction=BEAR Final=RANGE reason=REGIME_SHORT_MA_NEUTRAL
+2026-09-24 09:56:01.437 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BEAR fast=2175.1000 slow=2177.3000
+2026-09-24 09:56:01.439 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=BEAR BB=EXPANSION direction=BEAR Final=SHORT reason=REGIME_SHORT
+2026-09-24 10:00:01.444 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BEAR new=NEUTRAL fast=2174.3000 slow=2175.1500
+2026-09-24 10:00:01.447 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=NEUTRAL BB=EXPANSION direction=BEAR Final=RANGE reason=REGIME_SHORT_MA_NEUTRAL
+2026-09-24 10:01:01.699 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BEAR fast=2174.2000 slow=2174.9500
+2026-09-24 10:01:01.700 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=BEAR BB=EXPANSION direction=BEAR Final=SHORT reason=REGIME_SHORT
+2026-09-24 10:03:01.389 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BEAR new=NEUTRAL fast=2174.1000 slow=2174.7500
+2026-09-24 10:03:01.389 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=NEUTRAL BB=EXPANSION direction=BEAR Final=RANGE reason=REGIME_SHORT_MA_NEUTRAL
+2026-09-24 10:04:01.769 | INFO | CtaStrategy | [wqk27]  [V2.7 BB STATE] old=EXPANSION new=NEUTRAL percentile=60.83% bw=0.002205107651268505 release_count=0 direction=BULL
+2026-09-24 10:05:01.415 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BULL fast=2174.3000 slow=2174.8000
+2026-09-24 10:05:01.415 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=BULL BB=NEUTRAL direction=BULL Final=RANGE reason=REGIME_SHORT_MA_DIRECTION_CONFLICT
+2026-09-24 10:06:01.783 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BULL new=NEUTRAL fast=2174.5000 slow=2174.8000
+2026-09-24 10:06:01.783 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=NEUTRAL BB=NEUTRAL direction=BULL Final=RANGE reason=REGIME_SHORT_MA_NEUTRAL
+2026-09-24 10:08:01.419 | INFO | CtaStrategy | [wqk27]  [V2.7 ENTRY FILTER] regime=RANGE signal=GOLDEN_CROSS action=BLOCK reason=NO_TREND ADX=SHORT BB=NEUTRAL MA=NEUTRAL fast=2174.8000 slow=2174.7000
+2026-09-24 10:11:01.423 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BULL fast=2175.1000 slow=2174.6500
+2026-09-24 10:11:01.424 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=BULL BB=NEUTRAL direction=BULL Final=RANGE reason=REGIME_SHORT_MA_DIRECTION_CONFLICT
+2026-09-24 10:12:01.729 | INFO | CtaStrategy | [wqk27]  [V2.7 TREND] ADX=31.907481224740764 +DI=15.591972963915426 -DI=15.257945435333706 candidate=LONG confirm=1/2 state=SHORT
+2026-09-24 10:12:01.730 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BULL new=BEAR fast=2175.0000 slow=2174.5500
+2026-09-24 10:12:01.730 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=BEAR BB=NEUTRAL direction=BEAR Final=SHORT reason=REGIME_SHORT
+2026-09-24 10:13:02.049 | INFO | CtaStrategy | [wqk27]  [V2.7 TREND] ADX=29.70522446802037 +DI=14.830611829899713 -DI=14.512916630861339 candidate=LONG confirm=2/2 state=LONG
+2026-09-24 10:13:02.050 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BEAR new=NEUTRAL fast=2175.0000 slow=2174.5500
+2026-09-24 10:13:02.050 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=LONG MA=NEUTRAL BB=NEUTRAL direction=BULL Final=RANGE reason=REGIME_LONG_MA_NEUTRAL
+2026-09-24 10:31:01.747 | INFO | CtaStrategy | [wqk27]  [V2.7 TREND] ADX=25.23805867448852 +DI=15.644502287383716 -DI=16.41678767301739 candidate=SHORT confirm=1/2 state=LONG
+2026-09-24 10:31:01.748 | INFO | CtaStrategy | [wqk27]  [V2.7 ENTRY FILTER] regime=RANGE signal=DEATH_CROSS action=BLOCK reason=NO_TREND ADX=LONG BB=NEUTRAL MA=NEUTRAL fast=2174.5000 slow=2174.6500
+2026-09-24 10:32:02.267 | INFO | CtaStrategy | [wqk27]  [V2.7 TREND] ADX=23.607649124520577 +DI=14.827813656747379 -DI=15.5594876942941 candidate=NONE confirm=0/2 state=RANGE
+2026-09-24 10:32:02.268 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BULL fast=2174.6000 slow=2174.7000
+2026-09-24 10:32:02.268 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=RANGE MA=BULL BB=NEUTRAL direction=BULL Final=RANGE reason=ADX_RANGE
+2026-09-24 10:35:01.790 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BULL new=NEUTRAL fast=2174.7000 slow=2174.9000
+2026-09-24 10:37:01.403 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BEAR fast=2174.7000 slow=2174.8500
+2026-09-24 10:39:02.088 | INFO | CtaStrategy | [wqk27]  [V2.7 BB STATE] old=NEUTRAL new=COMPRESSION_HOLD percentile=12.50% bw=0.00142193422574288 release_count=0 direction=BEAR
+2026-09-24 10:40:01.444 | INFO | CtaStrategy | [wqk27]  [V2.7 BB STATE] old=COMPRESSION_HOLD new=NEUTRAL percentile=23.33% bw=0.0015255378320261314 release_count=1 direction=BEAR
+2026-09-24 10:42:01.409 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BEAR new=NEUTRAL fast=2174.1000 slow=2174.3500
+2026-09-24 10:44:01.757 | INFO | CtaStrategy | [wqk27]  [V2.7 BB STATE] old=NEUTRAL new=COMPRESSION_HOLD percentile=18.33% bw=0.0014636641465013273 release_count=0 direction=BEAR
+2026-09-24 10:50:01.764 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BULL fast=2174.5000 slow=2174.4000
+2026-09-24 10:50:01.764 | INFO | CtaStrategy | [wqk27]  [V2.7 BB STATE] old=COMPRESSION_HOLD new=COMPRESSION_RELEASE percentile=7.50% bw=0.0012754660757627549 release_count=2 direction=BULL
+2026-09-24 10:50:01.764 | INFO | CtaStrategy | [wqk27]  [V2.7 ENTRY FILTER] regime=RANGE signal=GOLDEN_CROSS action=BLOCK reason=NO_TREND ADX=RANGE BB=COMPRESSION_RELEASE MA=BULL fast=2174.5000 slow=2174.4000
+2026-09-24 10:51:01.474 | INFO | CtaStrategy | [wqk27]  [V2.7 BB STATE] old=COMPRESSION_RELEASE new=COMPRESSION_HOLD percentile=8.33% bw=0.0012754660757627549 release_count=0 direction=BULL
+2026-09-24 10:53:01.741 | INFO | CtaStrategy | [wqk27]  [V2.7 BB STATE] old=COMPRESSION_HOLD new=NEUTRAL percentile=36.67% bw=0.0016085767135936495 release_count=2 direction=BULL
+2026-09-24 11:00:01.772 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BULL new=NEUTRAL fast=2176.4000 slow=2175.4500
+2026-09-24 11:01:01.769 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BULL fast=2176.5000 slow=2175.6000
+2026-09-24 11:03:01.437 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BULL new=NEUTRAL fast=2176.7000 slow=2175.9000
+2026-09-24 11:04:01.447 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BULL fast=2176.8000 slow=2176.1000
+2026-09-24 11:09:01.761 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BULL new=NEUTRAL fast=2177.7000 slow=2177.1000
+2026-09-24 11:10:02.307 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BULL fast=2178.0000 slow=2177.2000
+2026-09-24 11:12:01.440 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BULL new=NEUTRAL fast=2178.2000 slow=2177.4500
+2026-09-24 11:13:01.453 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BULL fast=2178.3000 slow=2177.5000
+2026-09-24 11:15:01.764 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BULL new=NEUTRAL fast=2178.3000 slow=2177.7000
+2026-09-24 11:21:01.773 | INFO | CtaStrategy | [wqk27]  [V2.7 ENTRY FILTER] regime=RANGE signal=DEATH_CROSS action=BLOCK reason=NO_TREND ADX=RANGE BB=NEUTRAL MA=NEUTRAL fast=2178.0000 slow=2178.1000
+2026-09-24 11:22:01.776 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BULL fast=2178.1000 slow=2178.1500
+2026-09-24 11:24:01.579 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BULL new=NEUTRAL fast=2178.2000 slow=2178.3000
+2026-09-24 11:27:01.454 | INFO | CtaStrategy | [wqk27]  [V2.7 ENTRY FILTER] regime=RANGE signal=GOLDEN_CROSS action=BLOCK reason=NO_TREND ADX=RANGE BB=NEUTRAL MA=NEUTRAL fast=2178.3000 slow=2178.2000
+2026-09-24 11:28:01.463 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BULL fast=2178.4000 slow=2178.2500
+2026-09-24 11:40:27.666 | INFO | CtaStrategy | [wqk27]  DoubleMaStrategy V2.7 停止
+2026-09-24 11:42:59.347 | INFO | MainEngine | 连接登录 -> CTP
+2026-09-24 11:42:59.473 | INFO | CTP | 交易服务器连接成功
+2026-09-24 11:42:59.501 | INFO | CTP | 行情服务器连接成功
+2026-09-24 11:42:59.731 | INFO | CTP | 交易服务器授权验证成功
+2026-09-24 11:42:59.731 | INFO | CTP | 行情服务器登录成功
+2026-09-24 11:42:59.765 | INFO | CTP | 交易服务器登录成功
+2026-09-24 11:42:59.951 | INFO | CTP | 结算信息确认成功
+2026-09-24 11:43:06.324 | INFO | CTP | 合约信息查询成功
+2026-09-24 11:43:46.368 | INFO | CtaStrategy | CTA策略引擎初始化成功
+2026-09-24 11:44:19.845 | INFO | CtaStrategy | wqk27开始执行初始化
+2026-09-24 11:44:19.846 | INFO | CtaStrategy | [wqk27]  DoubleMaStrategy V2.7 initialized ExecutionCore 2.3.1
+2026-09-24 11:44:28.339 | INFO | MainEngine | 订阅行情 -> CTP：SubscribeRequest(symbol='c2611', exchange=<Exchange.DCE: 'DCE'>)
+2026-09-24 11:44:28.340 | INFO | CtaStrategy | wqk27初始化完成
+2026-09-24 11:44:37.083 | INFO | CtaStrategy | [wqk27]  DoubleMaStrategy V2.7 启动
+2026-09-24 11:44:37.086 | INFO | CtaStrategy | [wqk27]  成交账本已加载: C:\Users\Administrator\strategies\ledger\wqk27_c2611_DCE.sqlite (0 条)
+2026-09-24 11:44:37.087 | INFO | CtaStrategy | [wqk27]  已订阅 EVENT_TIMER / EVENT_POSITION
+2026-09-24 11:44:37.087 | INFO | CtaStrategy | [wqk27]  持仓同步开始：策略启动
+2026-09-24 11:44:37.087 | INFO | CtaStrategy | [wqk27]  已向柜台查询委托，等待回报后再对账。
+2026-09-24 11:44:37.087 | INFO | CtaStrategy | [wqk27]  持仓同步结束：system=SYNCING_ORDERS, reason=NONE, strategy_pos=0, account_pos=0, msg=持仓已同步 account_pos=0，开始同步活动订单
+2026-09-24 11:44:37.088 | INFO | CtaStrategy | [wqk27]  [V2.7 TREND] ADX=23.248413508804333 +DI=9.721485002582027 -DI=4.370595035049926 candidate=NONE confirm=0/2 state=RANGE
+2026-09-24 11:44:37.089 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=RANGE MA=BULL BB=NEUTRAL direction=BEAR Final=RANGE reason=ADX_RANGE
+2026-09-24 11:44:37.379 | INFO | CtaStrategy | [wqk27]  柜台委托查询完成，按查询结果对账
+2026-09-24 11:44:56.363 | INFO | CtaStrategy | [wqk27]  DoubleMaStrategy V2.7 停止
+2026-09-24 12:45:02.709 | INFO | MainEngine | 连接登录 -> CTP
+2026-09-24 12:45:02.840 | INFO | CTP | 交易服务器连接成功
+2026-09-24 12:45:02.845 | INFO | CTP | 行情服务器连接成功
+2026-09-24 12:45:02.901 | INFO | CTP | 行情服务器登录成功
+2026-09-24 12:45:03.085 | INFO | CTP | 交易服务器授权验证成功
+2026-09-24 12:45:03.121 | INFO | CTP | 交易服务器登录成功
+2026-09-24 12:45:03.318 | INFO | CTP | 结算信息确认成功
+2026-09-24 12:45:10.269 | INFO | CTP | 合约信息查询成功
+2026-09-24 12:45:10.325 | INFO | CtaStrategy | CTA策略引擎初始化成功
+2026-09-24 12:47:20.660 | INFO | MainEngine | 连接登录 -> CTP
+2026-09-24 12:47:20.784 | INFO | CTP | 行情服务器连接成功
+2026-09-24 12:47:20.793 | INFO | CTP | 交易服务器连接成功
+2026-09-24 12:47:20.845 | INFO | CTP | 行情服务器登录成功
+2026-09-24 12:47:21.050 | INFO | CTP | 交易服务器授权验证成功
+2026-09-24 12:47:21.084 | INFO | CTP | 交易服务器登录成功
+2026-09-24 12:47:21.289 | INFO | CTP | 结算信息确认成功
+2026-09-24 12:47:28.065 | INFO | CTP | 合约信息查询成功
+2026-09-24 12:47:28.082 | INFO | CtaStrategy | CTA策略引擎初始化成功
+2026-09-24 12:47:39.958 | INFO | CtaStrategy | wqk27开始执行初始化
+2026-09-24 12:47:39.958 | INFO | CtaStrategy | [wqk27]  DoubleMaStrategy V2.7 initialized ExecutionCore 2.3.1
+2026-09-24 12:47:48.549 | INFO | MainEngine | 订阅行情 -> CTP：SubscribeRequest(symbol='c2611', exchange=<Exchange.DCE: 'DCE'>)
+2026-09-24 12:47:48.549 | INFO | CtaStrategy | wqk27初始化完成
+2026-09-24 12:51:35.275 | INFO | MainEngine | 连接登录 -> CTP
+2026-09-24 12:51:35.375 | INFO | CTP | 交易服务器连接成功
+2026-09-24 12:51:35.635 | INFO | CTP | 行情服务器连接成功
+2026-09-24 12:51:35.635 | INFO | CTP | 交易服务器授权验证成功
+2026-09-24 12:51:35.636 | INFO | CTP | 行情服务器登录成功
+2026-09-24 12:51:35.670 | INFO | CTP | 交易服务器登录成功
+2026-09-24 12:51:35.877 | INFO | CTP | 结算信息确认成功
+2026-09-24 12:51:42.369 | INFO | CTP | 合约信息查询成功
+2026-09-24 12:51:45.030 | INFO | CtaStrategy | CTA策略引擎初始化成功
+2026-09-24 12:52:18.789 | INFO | CtaStrategy | wqk27开始执行初始化
+2026-09-24 12:52:18.789 | INFO | CtaStrategy | [wqk27]  DoubleMaStrategy V2.7 initialized ExecutionCore 2.3.1
+2026-09-24 12:52:27.407 | INFO | MainEngine | 订阅行情 -> CTP：SubscribeRequest(symbol='c2611', exchange=<Exchange.DCE: 'DCE'>)
+2026-09-24 12:52:27.408 | INFO | CtaStrategy | wqk27初始化完成
+2026-09-24 12:55:26.003 | INFO | MainEngine | 连接登录 -> CTP
+2026-09-24 12:55:26.119 | INFO | CTP | 交易服务器连接成功
+2026-09-24 12:55:26.147 | INFO | CTP | 行情服务器连接成功
+2026-09-24 12:55:26.379 | INFO | CTP | 交易服务器授权验证成功
+2026-09-24 12:55:26.380 | INFO | CTP | 行情服务器登录成功
+2026-09-24 12:55:26.412 | INFO | CTP | 交易服务器登录成功
+2026-09-24 12:55:26.600 | INFO | CTP | 结算信息确认成功
+2026-09-24 12:55:33.334 | INFO | CTP | 合约信息查询成功
+2026-09-24 12:55:33.407 | INFO | CtaStrategy | CTA策略引擎初始化成功
+2026-09-24 12:57:01.731 | INFO | MainEngine | 连接登录 -> CTP
+2026-09-24 12:57:01.846 | INFO | CTP | 行情服务器连接成功
+2026-09-24 12:57:01.856 | INFO | CTP | 交易服务器连接成功
+2026-09-24 12:57:01.906 | INFO | CTP | 行情服务器登录成功
+2026-09-24 12:57:02.088 | INFO | CTP | 交易服务器授权验证成功
+2026-09-24 12:57:02.124 | INFO | CTP | 交易服务器登录成功
+2026-09-24 12:57:02.307 | INFO | CTP | 结算信息确认成功
+2026-09-24 12:57:08.968 | INFO | CTP | 合约信息查询成功
+2026-09-24 12:57:09.027 | INFO | CtaStrategy | CTA策略引擎初始化成功
+2026-09-24 12:57:39.441 | INFO | CtaStrategy | wqk27开始执行初始化
+2026-09-24 12:57:39.441 | INFO | CtaStrategy | [wqk27]  DoubleMaStrategy V2.7 initialized ExecutionCore 2.3.1
+2026-09-24 12:57:48.120 | INFO | MainEngine | 订阅行情 -> CTP：SubscribeRequest(symbol='c2611', exchange=<Exchange.DCE: 'DCE'>)
+2026-09-24 12:57:48.120 | INFO | CtaStrategy | wqk27初始化完成
+2026-09-24 12:58:43.947 | INFO | MainEngine | 连接登录 -> CTP
+2026-09-24 12:58:44.042 | INFO | CTP | 行情服务器连接成功
+2026-09-24 12:58:44.100 | INFO | CTP | 交易服务器连接成功
+2026-09-24 12:58:44.100 | INFO | CTP | 行情服务器登录成功
+2026-09-24 12:58:44.333 | INFO | CTP | 交易服务器授权验证成功
+2026-09-24 12:58:44.361 | INFO | CTP | 交易服务器登录成功
+2026-09-24 12:58:44.570 | INFO | CTP | 结算信息确认成功
+2026-09-24 12:58:51.110 | INFO | CTP | 合约信息查询成功
+2026-09-24 12:58:51.181 | INFO | CtaStrategy | CTA策略引擎初始化成功
+2026-09-24 12:59:04.139 | INFO | CtaStrategy | wqk27开始执行初始化
+2026-09-24 12:59:04.140 | INFO | CtaStrategy | [wqk27]  DoubleMaStrategy V2.7 initialized ExecutionCore 2.3.1
+2026-09-24 12:59:12.449 | INFO | MainEngine | 订阅行情 -> CTP：SubscribeRequest(symbol='c2611', exchange=<Exchange.DCE: 'DCE'>)
+2026-09-24 12:59:12.449 | INFO | CtaStrategy | wqk27初始化完成
+2026-09-24 12:59:14.106 | INFO | CtaStrategy | [wqk27]  DoubleMaStrategy V2.7 启动
+2026-09-24 12:59:14.109 | INFO | CtaStrategy | [wqk27]  成交账本已加载: C:\Users\Administrator\strategies\ledger\wqk27_c2611_DCE.sqlite (0 条)
+2026-09-24 12:59:14.109 | INFO | CtaStrategy | [wqk27]  已订阅 EVENT_TIMER / EVENT_POSITION
+2026-09-24 12:59:14.110 | INFO | CtaStrategy | [wqk27]  持仓同步开始：策略启动
+2026-09-24 12:59:14.111 | INFO | CtaStrategy | [wqk27]  已向柜台查询委托，等待回报后再对账。
+2026-09-24 12:59:14.111 | INFO | CtaStrategy | [wqk27]  持仓同步结束：system=SYNCING_ORDERS, reason=NONE, strategy_pos=0, account_pos=0, msg=持仓已同步 account_pos=0，开始同步活动订单
+2026-09-24 12:59:14.111 | INFO | CtaStrategy | [wqk27]  [V2.7 TREND] ADX=23.248413508804333 +DI=9.721485002582027 -DI=4.370595035049926 candidate=NONE confirm=0/2 state=RANGE
+2026-09-24 12:59:14.111 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=RANGE MA=BULL BB=NEUTRAL direction=BEAR Final=RANGE reason=ADX_RANGE
+2026-09-24 12:59:14.321 | INFO | CtaStrategy | [wqk27]  柜台委托查询完成，按查询结果对账
+2026-09-24 13:30:06.555 | INFO | CtaStrategy | [wqk27]  [V2.7 TREND] ADX=27.08843218015451 +DI=5.702082963558329 -DI=43.909184949974055 candidate=SHORT confirm=1/2 state=RANGE
+2026-09-24 13:30:06.556 | INFO | CtaStrategy | [wqk27]  [V2.7 BB STATE] old=NEUTRAL new=EXPANSION percentile=100.00% bw=0.005164297138355924 release_count=2 direction=BEAR
+2026-09-24 13:31:01.810 | INFO | CtaStrategy | [wqk27]  [V2.7 TREND] ADX=30.86254141420915 +DI=5.336346949810115 -DI=47.50525259216785 candidate=SHORT confirm=2/2 state=SHORT
+2026-09-24 13:31:01.812 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=BEAR BB=EXPANSION direction=BEAR Final=SHORT reason=REGIME_SHORT
+2026-09-24 13:36:01.590 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BEAR new=NEUTRAL fast=2177.6000 slow=2182.2000
+2026-09-24 13:36:01.591 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=NEUTRAL BB=EXPANSION direction=BEAR Final=RANGE reason=REGIME_SHORT_MA_NEUTRAL
+2026-09-24 13:39:01.551 | INFO | CtaStrategy | [wqk27]  [V2.7 ENTRY FILTER] regime=RANGE signal=GOLDEN_CROSS action=BLOCK reason=NO_TREND ADX=SHORT BB=EXPANSION MA=NEUTRAL fast=2178.2000 slow=2177.9000
+2026-09-24 13:43:01.883 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BEAR fast=2177.8000 slow=2177.8000
+2026-09-24 13:43:01.884 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=BEAR BB=EXPANSION direction=BEAR Final=SHORT reason=REGIME_SHORT
+2026-09-24 13:44:01.791 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BEAR new=NEUTRAL fast=2177.4000 slow=2177.8000
+2026-09-24 13:44:01.792 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=NEUTRAL BB=EXPANSION direction=BEAR Final=RANGE reason=REGIME_SHORT_MA_NEUTRAL
+2026-09-24 13:44:01.792 | INFO | CtaStrategy | [wqk27]  [V2.7 ENTRY FILTER] regime=RANGE signal=DEATH_CROSS action=BLOCK reason=NO_TREND ADX=SHORT BB=EXPANSION MA=NEUTRAL fast=2177.4000 slow=2177.8000
+2026-09-24 13:46:01.636 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BEAR fast=2176.6000 slow=2177.4000
+2026-09-24 13:46:01.637 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=BEAR BB=EXPANSION direction=BEAR Final=SHORT reason=REGIME_SHORT
+2026-09-24 13:51:02.296 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BEAR new=NEUTRAL fast=2175.0000 slow=2175.8000
+2026-09-24 13:51:02.296 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=NEUTRAL BB=EXPANSION direction=BEAR Final=RANGE reason=REGIME_SHORT_MA_NEUTRAL
+2026-09-24 13:52:01.505 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BEAR fast=2174.8000 slow=2175.5000
+2026-09-24 13:52:01.506 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=BEAR BB=EXPANSION direction=BEAR Final=SHORT reason=REGIME_SHORT
+2026-09-24 13:53:02.317 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BEAR new=NEUTRAL fast=2175.0000 slow=2175.4000
+2026-09-24 13:53:02.317 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=NEUTRAL BB=EXPANSION direction=BEAR Final=RANGE reason=REGIME_SHORT_MA_NEUTRAL
+2026-09-24 13:55:02.386 | INFO | CtaStrategy | [wqk27]  [V2.7 BB STATE] old=EXPANSION new=NEUTRAL percentile=63.33% bw=0.0026632897984234486 release_count=0 direction=BEAR
+2026-09-24 13:55:02.386 | INFO | CtaStrategy | [wqk27]  [V2.7 ENTRY FILTER] regime=RANGE signal=GOLDEN_CROSS action=BLOCK reason=NO_TREND ADX=SHORT BB=NEUTRAL MA=NEUTRAL fast=2175.8000 slow=2175.3000
+2026-09-24 14:00:01.508 | INFO | CtaStrategy | [wqk27]  [V2.7 ENTRY FILTER] regime=RANGE signal=DEATH_CROSS action=BLOCK reason=NO_TREND ADX=SHORT BB=NEUTRAL MA=NEUTRAL fast=2175.2000 slow=2175.5000
+2026-09-24 14:01:01.611 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BEAR fast=2175.0000 slow=2175.4000
+2026-09-24 14:01:01.612 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=BEAR BB=NEUTRAL direction=BEAR Final=SHORT reason=REGIME_SHORT
+2026-09-24 14:04:02.388 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BEAR new=NEUTRAL fast=2174.6000 slow=2175.1000
+2026-09-24 14:04:02.388 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=NEUTRAL BB=NEUTRAL direction=BEAR Final=RANGE reason=REGIME_SHORT_MA_NEUTRAL
+2026-09-24 14:07:01.531 | INFO | CtaStrategy | [wqk27]  [V2.7 ENTRY FILTER] regime=RANGE signal=GOLDEN_CROSS action=BLOCK reason=NO_TREND ADX=SHORT BB=NEUTRAL MA=NEUTRAL fast=2175.4000 slow=2175.0000
+2026-09-24 14:09:01.607 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BULL fast=2175.6000 slow=2175.1000
+2026-09-24 14:09:01.607 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=BULL BB=NEUTRAL direction=BULL Final=RANGE reason=REGIME_SHORT_MA_DIRECTION_CONFLICT
+2026-09-24 14:10:01.828 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BULL new=NEUTRAL fast=2175.2000 slow=2175.1000
+2026-09-24 14:10:01.829 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=NEUTRAL BB=NEUTRAL direction=BEAR Final=RANGE reason=REGIME_SHORT_MA_NEUTRAL
+2026-09-24 14:11:02.092 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BEAR fast=2175.0000 slow=2175.0000
+2026-09-24 14:11:02.092 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=BEAR BB=NEUTRAL direction=BEAR Final=SHORT reason=REGIME_SHORT
+2026-09-24 14:12:02.136 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BEAR new=NEUTRAL fast=2174.6000 slow=2175.0000
+2026-09-24 14:12:02.137 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=NEUTRAL BB=NEUTRAL direction=BEAR Final=RANGE reason=REGIME_SHORT_MA_NEUTRAL
+2026-09-24 14:12:02.137 | INFO | CtaStrategy | [wqk27]  [V2.7 ENTRY FILTER] regime=RANGE signal=DEATH_CROSS action=BLOCK reason=NO_TREND ADX=SHORT BB=NEUTRAL MA=NEUTRAL fast=2174.6000 slow=2175.0000
+2026-09-24 14:13:01.829 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BEAR fast=2174.4000 slow=2174.9000
+2026-09-24 14:13:01.829 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=BEAR BB=NEUTRAL direction=BEAR Final=SHORT reason=REGIME_SHORT
+2026-09-24 14:14:01.545 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BEAR new=NEUTRAL fast=2174.2000 slow=2174.9000
+2026-09-24 14:14:01.545 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=NEUTRAL BB=NEUTRAL direction=BEAR Final=RANGE reason=REGIME_SHORT_MA_NEUTRAL
+2026-09-24 14:17:01.815 | INFO | CtaStrategy | [wqk27]  [V2.7 BB STATE] old=NEUTRAL new=COMPRESSION_HOLD percentile=20.00% bw=0.0014853848745019628 release_count=0 direction=BEAR
+2026-09-24 14:18:01.808 | INFO | CtaStrategy | [wqk27]  [V2.7 BB STATE] old=COMPRESSION_HOLD new=NEUTRAL percentile=23.33% bw=0.0015302074375459001 release_count=1 direction=BEAR
+2026-09-24 14:18:01.808 | INFO | CtaStrategy | [wqk27]  [V2.7 ENTRY FILTER] regime=RANGE signal=GOLDEN_CROSS action=BLOCK reason=NO_TREND ADX=SHORT BB=NEUTRAL MA=NEUTRAL fast=2174.6000 slow=2174.5000
+2026-09-24 14:19:01.836 | INFO | CtaStrategy | [wqk27]  [V2.7 BB STATE] old=NEUTRAL new=COMPRESSION_HOLD percentile=20.00% bw=0.0014854374078762144 release_count=0 direction=BULL
+2026-09-24 14:22:01.814 | INFO | CtaStrategy | [wqk27]  [V2.7 ENTRY FILTER] regime=RANGE signal=DEATH_CROSS action=BLOCK reason=NO_TREND ADX=SHORT BB=COMPRESSION_HOLD MA=NEUTRAL fast=2174.4000 slow=2174.5000
+2026-09-24 14:23:01.811 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BULL fast=2174.6000 slow=2174.6000
+2026-09-24 14:23:01.812 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=BULL BB=COMPRESSION_HOLD direction=BULL Final=RANGE reason=REGIME_SHORT_MA_DIRECTION_CONFLICT
+2026-09-24 14:24:01.828 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BULL new=NEUTRAL fast=2174.6000 slow=2174.6000
+2026-09-24 14:24:01.830 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=NEUTRAL BB=COMPRESSION_HOLD direction=BULL Final=RANGE reason=REGIME_SHORT_MA_NEUTRAL
+2026-09-24 14:26:02.333 | INFO | CtaStrategy | [wqk27]  [V2.7 TREND] ADX=51.84254134629081 +DI=8.113337870899471 -DI=6.8174384467796765 candidate=LONG confirm=1/2 state=SHORT
+2026-09-24 14:26:02.334 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BULL fast=2175.0000 slow=2174.7000
+2026-09-24 14:26:02.334 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=BULL BB=COMPRESSION_HOLD direction=BULL Final=RANGE reason=REGIME_SHORT_MA_DIRECTION_CONFLICT
+2026-09-24 14:26:02.334 | INFO | CtaStrategy | [wqk27]  [V2.7 ENTRY FILTER] regime=RANGE signal=GOLDEN_CROSS action=BLOCK reason=NO_TREND ADX=SHORT BB=COMPRESSION_HOLD MA=BULL fast=2175.0000 slow=2174.7000
+2026-09-24 14:27:02.567 | INFO | CtaStrategy | [wqk27]  [V2.7 TREND] ADX=48.75872843355861 +DI=7.616234610865701 -DI=6.39974329151747 candidate=LONG confirm=2/2 state=LONG
+2026-09-24 14:27:02.568 | INFO | CtaStrategy | [wqk27]  [V2.7 BB STATE] old=COMPRESSION_HOLD new=COMPRESSION_RELEASE percentile=10.83% bw=0.0013514880650131683 release_count=2 direction=BULL
+2026-09-24 14:27:02.568 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=LONG MA=BULL BB=COMPRESSION_RELEASE direction=BULL Final=LONG reason=REGIME_LONG
+2026-09-24 14:28:01.858 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BULL new=NEUTRAL fast=2175.2000 slow=2174.9000
+2026-09-24 14:28:01.860 | INFO | CtaStrategy | [wqk27]  [V2.7 BB STATE] old=COMPRESSION_RELEASE new=COMPRESSION_HOLD percentile=8.33% bw=0.0013196164616186149 release_count=0 direction=BULL
+2026-09-24 14:28:01.860 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=LONG MA=NEUTRAL BB=COMPRESSION_HOLD direction=BULL Final=RANGE reason=REGIME_LONG_MA_NEUTRAL
+2026-09-24 14:29:01.838 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BULL fast=2175.4000 slow=2175.0000
+2026-09-24 14:29:01.839 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=LONG MA=BULL BB=COMPRESSION_HOLD direction=BULL Final=RANGE reason=REGIME_LONG_BB_COMPRESSION_HOLD
+2026-09-24 14:30:01.536 | INFO | CtaStrategy | [wqk27]  [V2.7 TREND] ADX=42.287175713252665 +DI=5.9029660170469125 -DI=10.892933618216862 candidate=SHORT confirm=1/2 state=LONG
+2026-09-24 14:31:01.872 | INFO | CtaStrategy | [wqk27]  [V2.7 TREND] ADX=41.388060456874065 +DI=5.548491285317795 -DI=10.23896639536851 candidate=SHORT confirm=2/2 state=SHORT
+2026-09-24 14:31:01.873 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BULL new=NEUTRAL fast=2175.4000 slow=2175.2000
+2026-09-24 14:31:01.873 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=NEUTRAL BB=COMPRESSION_HOLD direction=BULL Final=RANGE reason=REGIME_SHORT_MA_NEUTRAL
+2026-09-24 14:34:01.829 | INFO | CtaStrategy | [wqk27]  [V2.7 ENTRY FILTER] regime=RANGE signal=DEATH_CROSS action=BLOCK reason=NO_TREND ADX=SHORT BB=COMPRESSION_HOLD MA=NEUTRAL fast=2175.0000 slow=2175.2000
+2026-09-24 14:39:02.436 | INFO | CtaStrategy | [wqk27]  [V2.7 ENTRY FILTER] regime=RANGE signal=GOLDEN_CROSS action=BLOCK reason=NO_TREND ADX=SHORT BB=COMPRESSION_HOLD MA=NEUTRAL fast=2175.2000 slow=2175.1000
+2026-09-24 14:41:01.823 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BULL fast=2175.4000 slow=2175.2000
+2026-09-24 14:41:01.823 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=BULL BB=COMPRESSION_HOLD direction=BULL Final=RANGE reason=REGIME_SHORT_MA_DIRECTION_CONFLICT
+2026-09-24 14:42:01.839 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BULL new=NEUTRAL fast=2175.4000 slow=2175.3000
+2026-09-24 14:42:01.840 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=NEUTRAL BB=COMPRESSION_HOLD direction=BULL Final=RANGE reason=REGIME_SHORT_MA_NEUTRAL
+2026-09-24 14:44:02.171 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BULL fast=2175.6000 slow=2175.4000
+2026-09-24 14:44:02.171 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=SHORT MA=BULL BB=COMPRESSION_HOLD direction=BULL Final=RANGE reason=REGIME_SHORT_MA_DIRECTION_CONFLICT
+2026-09-24 14:45:01.864 | INFO | CtaStrategy | [wqk27]  [V2.7 TREND] ADX=35.51224014562804 +DI=13.025393233565918 -DI=8.57727028506689 candidate=LONG confirm=1/2 state=SHORT
+2026-09-24 14:46:01.762 | INFO | CtaStrategy | [wqk27]  [V2.7 TREND] ADX=37.02841233347173 +DI=25.063879327121963 -DI=6.9111867615418365 candidate=LONG confirm=2/2 state=LONG
+2026-09-24 14:46:01.762 | INFO | CtaStrategy | [wqk27]  [V2.7 BB STATE] old=COMPRESSION_HOLD new=NEUTRAL percentile=70.00% bw=0.002054501473570646 release_count=2 direction=BULL
+2026-09-24 14:46:01.763 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=LONG MA=BULL BB=NEUTRAL direction=BULL Final=LONG reason=REGIME_LONG
+2026-09-24 14:51:01.851 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BULL new=NEUTRAL fast=2179.0000 slow=2177.9000
+2026-09-24 14:51:01.852 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=LONG MA=NEUTRAL BB=NEUTRAL direction=BULL Final=RANGE reason=REGIME_LONG_MA_NEUTRAL
+2026-09-24 14:53:01.696 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BULL fast=2179.0000 slow=2178.7000
+2026-09-24 14:53:01.696 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=LONG MA=BULL BB=NEUTRAL direction=BULL Final=LONG reason=REGIME_LONG
+2026-09-24 14:56:01.850 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=BULL new=NEUTRAL fast=2179.6000 slow=2179.3000
+2026-09-24 14:56:01.852 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=LONG MA=NEUTRAL BB=NEUTRAL direction=BULL Final=RANGE reason=REGIME_LONG_MA_NEUTRAL
+2026-09-24 14:59:02.134 | INFO | CtaStrategy | [wqk27]  [V2.7 MA] old=NEUTRAL new=BULL fast=2180.2000 slow=2179.7000
+2026-09-24 14:59:02.134 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=LONG MA=BULL BB=NEUTRAL direction=BULL Final=LONG reason=REGIME_LONG
+2026-09-24 15:21:05.948 | INFO | CtaStrategy | [wqk27]  DoubleMaStrategy V2.7 停止
+2026-09-24 15:56:29.033 | INFO | CTP | 交易服务器连接断开，原因4097
+2026-09-24 15:56:29.630 | INFO | CTP | 行情服务器连接断开，原因4097
