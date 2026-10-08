@@ -1,0 +1,29 @@
+2026-09-29 09:05:00.963 | INFO | MainEngine | 连接登录 -> CTP
+2026-09-29 09:05:01.098 | INFO | CTP | 行情服务器连接成功
+2026-09-29 09:05:01.128 | INFO | CTP | 交易服务器连接成功
+2026-09-29 09:05:01.160 | INFO | CTP | 行情服务器登录成功
+2026-09-29 09:05:01.514 | INFO | CTP | 交易服务器授权验证成功
+2026-09-29 09:05:01.576 | INFO | CTP | 交易服务器登录成功
+2026-09-29 09:07:35.459 | INFO | CTP | 交易服务器连接断开，原因8193
+2026-09-29 09:07:36.589 | INFO | CTP | 交易服务器连接成功
+2026-09-29 09:07:36.876 | INFO | CTP | 交易服务器授权验证成功
+2026-09-29 09:07:36.910 | INFO | CTP | 交易服务器登录成功
+2026-09-29 09:07:38.771 | INFO | MainEngine | 连接登录 -> CTP
+2026-09-29 09:07:51.013 | INFO | CTP | 结算信息确认成功
+2026-09-29 09:07:51.014 | INFO | CTP | 交易服务器授权验证成功
+2026-09-29 09:08:45.806 | INFO | MainEngine | 订阅行情 -> CTP：SubscribeRequest(symbol='c2611', exchange=<Exchange.DCE: 'DCE'>)
+2026-09-29 09:08:54.093 | INFO | CtaStrategy | CTA策略引擎初始化成功
+2026-09-29 09:08:55.632 | INFO | CtaStrategy | wqk27开始执行初始化
+2026-09-29 09:08:55.632 | INFO | CtaStrategy | [wqk27]  DoubleMaStrategy V2.7 initialized ExecutionCore 2.3.1
+2026-09-29 09:09:03.863 | INFO | MainEngine | 订阅行情 -> CTP：SubscribeRequest(symbol='c2611', exchange=<Exchange.DCE: 'DCE'>)
+2026-09-29 09:09:03.863 | INFO | CtaStrategy | wqk27初始化完成
+2026-09-29 09:09:06.436 | INFO | CtaStrategy | [wqk27]  DoubleMaStrategy V2.7 启动
+2026-09-29 09:09:06.438 | INFO | CtaStrategy | [wqk27]  成交账本已加载: C:\Users\Administrator\strategies\ledger\wqk27_c2611_DCE.sqlite (0 条)
+2026-09-29 09:09:06.439 | INFO | CtaStrategy | [wqk27]  已订阅 EVENT_TIMER / EVENT_POSITION
+2026-09-29 09:09:06.440 | INFO | CtaStrategy | [wqk27]  持仓同步开始：策略启动
+2026-09-29 09:09:06.440 | INFO | CtaStrategy | [wqk27]  已向柜台查询委托，等待回报后再对账。
+2026-09-29 09:09:06.440 | INFO | CtaStrategy | [wqk27]  持仓同步结束：system=SYNCING_ORDERS, reason=NONE, strategy_pos=0, account_pos=0, msg=持仓已同步 account_pos=0，开始同步活动订单
+2026-09-29 09:09:06.440 | INFO | CtaStrategy | [wqk27]  [V2.7 TREND] ADX=43.829528274161895 +DI=20.141649108074034 -DI=4.553891204064804 candidate=LONG confirm=2/2 state=LONG
+2026-09-29 09:09:06.441 | INFO | CtaStrategy | [wqk27]  [V2.7 REGIME] ADX=LONG MA=BEAR BB=EXPANSION direction=BEAR Final=RANGE reason=REGIME_LONG_MA_DIRECTION_CONFLICT
+2026-09-29 09:09:15.162 | INFO | CtaStrategy | [wqk27]  柜台委托查询超时，退回本进程内存对账
+2026-09-29 09:09:18.164 | INFO | CtaStrategy | [wqk27]  私有流空闲后按本进程无挂单放行（非柜台 query_order）
